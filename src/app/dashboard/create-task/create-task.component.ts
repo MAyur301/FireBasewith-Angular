@@ -27,6 +27,7 @@ export class CreateTaskComponent implements AfterViewInit {
   {
       this.EmitTaskdata.emit(taskForm.value);
       this.CloseForm.emit(false);
+      
 
   }
  ngAfterViewInit(): void {
